@@ -1,0 +1,89 @@
+@import './fonts.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*,
+::before,
+::after {
+  border-color: var(--chakra-colors-chakra-border-color);
+  overflow-wrap: break-word;
+  scroll-behavior: smooth;
+  letter-spacing: 0.02em;
+}
+
+:root,
+body,
+html {
+  height: 100%;
+  --removed-body-scroll-bar-size: 0px !important;
+}
+
+body {
+  position: relative;
+  min-height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  font-feature-settings: 'kern';
+  --removed-body-scroll-bar-size: 0px !important
+}
+
+@media screen and (max-width: 1025px) {
+  .div_mobile {
+    visibility: visible;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .div_mobile {
+    visibility: hidden;
+  }
+}
+
+.light {
+  background-color: #fff;
+  color: #111;
+}
+
+.dark {
+  background-color: #09090B;
+  color: #bbb;
+}
+
+::-webkit-scrollbar {
+  height: 2px;
+  /* толщина горизонтального скролла */
+  width: 0px;
+  border-radius: 100%;
+}
+
+/* Дорожка (фон под ползунком) */
+::-webkit-scrollbar-track:horizontal {
+  background: transparent;
+}
+
+/* Ползунок */
+::-webkit-scrollbar-thumb:horizontal {
+  background: #94a3b8;
+  border-radius: 0.5px;
+  /* маленький радиус, чтобы не сильно выделялся */
+}
+
+._next {
+  height: 100%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+input[type=date]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}

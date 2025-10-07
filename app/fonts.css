@@ -1,0 +1,95 @@
+@font-face {
+    font-family: ONVIBE-UI font;
+    src: url(/fonts/SFProText-Bold.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap
+  }
+  
+  @font-face {
+    font-family: ONVIBE-UI font;
+    src: url(/fonts/SFProText-BoldItalic.ttf) format("truetype");
+    font-style: italic;
+    font-weight: 700;
+    font-display: swap
+  }
+  
+  @font-face {
+    font-family: ONVIBE-UI font;
+    src: url(/fonts/SFProText-Heavy.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap
+  }
+  
+  @font-face {
+    font-family: ONVIBE-UI font;
+    src: url(/fonts/SFProText-HeavyItalic.ttf) format("truetype");
+    font-style: italic;
+    font-weight: 900;
+    font-display: swap
+  }
+  
+  @font-face {
+    font-family: ONVIBE-UI font;
+    src: url(/fonts/SFProText-Light.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap
+  }
+  
+  @font-face {
+    font-family: ONVIBE-UI font;
+    src: url(/fonts/SFProText-LightItalic.ttf) format("truetype");
+    font-style: italic;
+    font-weight: 300;
+    font-display: swap
+  }
+  
+  @font-face {
+    font-family: ONVIBE-UI font;
+    src: url(/fonts/SFProText-Medium.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap
+  }
+  
+  @font-face {
+    font-family: ONVIBE-UI font;
+    src: url(/fonts/SFProText-MediumItalic.ttf) format("truetype");
+    font-style: italic;
+    font-weight: 500;
+    font-display: swap
+  }
+  
+  @font-face {
+    font-family: ONVIBE-UI font;
+    src: url(/fonts/SFProText-Regular.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap
+  }
+  
+  @font-face {
+    font-family: ONVIBE-UI font;
+    src: url(/fonts/SFProText-RegularItalic.ttf) format("truetype");
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap
+  }
+  
+  @font-face {
+    font-family: ONVIBE-UI font;
+    src: url(/fonts/SFProText-Semibold.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap
+  }
+  
+  @font-face {
+    font-family: ONVIBE-UI font;
+    src: url(/fonts/SFProText-SemiboldItalic.ttf) format("truetype");
+    font-style: italic;
+    font-weight: 600;
+    font-display: swap
+  }
